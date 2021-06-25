@@ -20,6 +20,7 @@ Insert Delivery_Item__c:
   - Food_Expiration_Date__c
   - Food_Storage__c
   - Name
+  - Delivery_Notes__c
   lookups:
     Delivery__c:
       table: Delivery__c
