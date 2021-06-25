@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kind__c</fullName>
+    <externalId>false</externalId>
+    <label>Kind</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DTS</fullName>
+                <default>false</default>
+                <label>DTS</label>
+            </value>
+            <value>
+                <fullName>OT</fullName>
+                <default>false</default>
+                <label>OT</label>
+            </value>
+            <value>
+                <fullName>WHSL</fullName>
+                <default>false</default>
+                <label>WHSL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
